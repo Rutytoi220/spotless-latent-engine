@@ -6,3 +6,4 @@ checkpoints/*.pt
 !checkpoints/
 *.log
 *.tmp
+hf_release/
