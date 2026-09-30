@@ -1,0 +1,737 @@
+{
+  "bat_and_ball": {
+    "category": "Cognitive Reflection",
+    "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Answer step-by-step.",
+    "K_steps": 6,
+    "steps": [
+      {
+        "step": 0,
+        "norm": 127.5,
+        "cosine_sim": 1.0,
+        "drift_from_h0": 0.0,
+        "entropy": 0.236328125,
+        "virtual_tokens": [
+          {
+            "token": "Let",
+            "prob": 0.9375,
+            "id": 10061
+          },
+          {
+            "token": "To",
+            "prob": 0.06005859375,
+            "id": 1249
+          },
+          {
+            "token": "Step",
+            "prob": 0.00058746337890625,
+            "id": 8304
+          },
+          {
+            "token": "Sure",
+            "prob": 7.009506225585938e-05,
+            "id": 39814
+          },
+          {
+            "token": "We",
+            "prob": 6.198883056640625e-05,
+            "id": 1654
+          }
+        ]
+      },
+      {
+        "step": 1,
+        "norm": 137.0,
+        "cosine_sim": 0.373046875,
+        "drift_from_h0": 148.0,
+        "entropy": 0.007080078125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 1.0,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.0002613067626953125,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00020313262939453125,
+            "id": 151644
+          },
+          {
+            "token": " step",
+            "prob": 5.817413330078125e-05,
+            "id": 3019
+          },
+          {
+            "token": " problem",
+            "prob": 3.7670135498046875e-05,
+            "id": 3491
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "norm": 136.0,
+        "cosine_sim": 0.8984375,
+        "drift_from_h0": 159.0,
+        "entropy": 0.000896453857421875,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 1.0,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 5.14984130859375e-05,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 3.528594970703125e-05,
+            "id": 151644
+          },
+          {
+            "token": "<|endoftext|>",
+            "prob": 4.4517219066619873e-07,
+            "id": 151643
+          },
+          {
+            "token": "\n\n",
+            "prob": 3.259629011154175e-07,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "norm": 139.0,
+        "cosine_sim": 0.921875,
+        "drift_from_h0": 163.0,
+        "entropy": 0.0284423828125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.99609375,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.0035858154296875,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00054931640625,
+            "id": 151644
+          },
+          {
+            "token": " \n",
+            "prob": 6.109476089477539e-06,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 3.069639205932617e-06,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "norm": 149.0,
+        "cosine_sim": 0.9765625,
+        "drift_from_h0": 172.0,
+        "entropy": 0.2001953125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.953125,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.04736328125,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00125885009765625,
+            "id": 151644
+          },
+          {
+            "token": " \n",
+            "prob": 2.4557113647460938e-05,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 1.4901161193847656e-05,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "norm": 160.0,
+        "cosine_sim": 0.984375,
+        "drift_from_h0": 184.0,
+        "entropy": 0.5703125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.75390625,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.2451171875,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00145721435546875,
+            "id": 151644
+          },
+          {
+            "token": " \n",
+            "prob": 6.389617919921875e-05,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 4.673004150390625e-05,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "norm": 167.0,
+        "cosine_sim": 0.984375,
+        "drift_from_h0": 192.0,
+        "entropy": 0.70703125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.53125,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.46875,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00115966796875,
+            "id": 151644
+          },
+          {
+            "token": " \n",
+            "prob": 0.00012969970703125,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00011491775512695312,
+            "id": 271
+          }
+        ]
+      }
+    ]
+  },
+  "two_sum": {
+    "category": "Algorithmic Logic",
+    "prompt": "Write a Python function to find two numbers in an unsorted list that sum up to target in O(N) time complexity.",
+    "K_steps": 6,
+    "steps": [
+      {
+        "step": 0,
+        "norm": 131.0,
+        "cosine_sim": 1.0,
+        "drift_from_h0": 0.0,
+        "entropy": 0.2451171875,
+        "virtual_tokens": [
+          {
+            "token": "To",
+            "prob": 0.9453125,
+            "id": 1249
+          },
+          {
+            "token": "Certainly",
+            "prob": 0.047119140625,
+            "id": 95456
+          },
+          {
+            "token": "Sure",
+            "prob": 0.006378173828125,
+            "id": 39814
+          },
+          {
+            "token": "Here",
+            "prob": 0.001251220703125,
+            "id": 8420
+          },
+          {
+            "token": "Let",
+            "prob": 0.000461578369140625,
+            "id": 10061
+          }
+        ]
+      },
+      {
+        "step": 1,
+        "norm": 137.0,
+        "cosine_sim": 0.41015625,
+        "drift_from_h0": 145.0,
+        "entropy": 0.0047607421875,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 1.0,
+            "id": 198
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.0002613067626953125,
+            "id": 151644
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 5.817413330078125e-05,
+            "id": 151645
+          },
+          {
+            "token": " to",
+            "prob": 5.817413330078125e-05,
+            "id": 311
+          },
+          {
+            "token": " problem",
+            "prob": 2.753734588623047e-05,
+            "id": 3491
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "norm": 138.0,
+        "cosine_sim": 0.84765625,
+        "drift_from_h0": 157.0,
+        "entropy": 0.000881195068359375,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 1.0,
+            "id": 198
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 6.628036499023438e-05,
+            "id": 151644
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 2.1457672119140625e-05,
+            "id": 151645
+          },
+          {
+            "token": "\n\n",
+            "prob": 2.1047890186309814e-07,
+            "id": 271
+          },
+          {
+            "token": "<|endoftext|>",
+            "prob": 1.6391277313232422e-07,
+            "id": 151643
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "norm": 141.0,
+        "cosine_sim": 0.9375,
+        "drift_from_h0": 161.0,
+        "entropy": 0.01165771484375,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 1.0,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.000911712646484375,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00070953369140625,
+            "id": 151644
+          },
+          {
+            "token": " \n",
+            "prob": 2.3990869522094727e-06,
+            "id": 715
+          },
+          {
+            "token": "<|endoftext|>",
+            "prob": 1.3709068298339844e-06,
+            "id": 151643
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "norm": 147.0,
+        "cosine_sim": 0.94921875,
+        "drift_from_h0": 169.0,
+        "entropy": 0.1015625,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.98046875,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.0203857421875,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00015544891357421875,
+            "id": 151644
+          },
+          {
+            "token": " \n",
+            "prob": 0.00015544891357421875,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 1.633167266845703e-05,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "norm": 152.0,
+        "cosine_sim": 0.97265625,
+        "drift_from_h0": 176.0,
+        "entropy": 0.515625,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.796875,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.201171875,
+            "id": 151645
+          },
+          {
+            "token": " \n",
+            "prob": 0.00087738037109375,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.000152587890625,
+            "id": 271
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 9.822845458984375e-05,
+            "id": 151644
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "norm": 156.0,
+        "cosine_sim": 0.95703125,
+        "drift_from_h0": 185.0,
+        "entropy": 0.71875,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.55859375,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.435546875,
+            "id": 151645
+          },
+          {
+            "token": " \n",
+            "prob": 0.002288818359375,
+            "id": 715
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00051116943359375,
+            "id": 271
+          },
+          {
+            "token": ".",
+            "prob": 0.00021266937255859375,
+            "id": 13
+          }
+        ]
+      }
+    ]
+  },
+  "strawberry_r": {
+    "category": "Character Counting Trap",
+    "prompt": "How many times does the letter 'r' appear in the word 'strawberry'?",
+    "K_steps": 6,
+    "steps": [
+      {
+        "step": 0,
+        "norm": 130.0,
+        "cosine_sim": 1.0,
+        "drift_from_h0": 0.0,
+        "entropy": 0.228515625,
+        "virtual_tokens": [
+          {
+            "token": "To",
+            "prob": 0.94140625,
+            "id": 1249
+          },
+          {
+            "token": "Let",
+            "prob": 0.06005859375,
+            "id": 10061
+          },
+          {
+            "token": "I",
+            "prob": 9.012222290039062e-05,
+            "id": 40
+          },
+          {
+            "token": "Step",
+            "prob": 5.4836273193359375e-05,
+            "id": 8304
+          },
+          {
+            "token": "Here",
+            "prob": 4.267692565917969e-05,
+            "id": 8420
+          }
+        ]
+      },
+      {
+        "step": 1,
+        "norm": 134.0,
+        "cosine_sim": 0.3359375,
+        "drift_from_h0": 152.0,
+        "entropy": 0.052001953125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.99609375,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.000850677490234375,
+            "id": 151645
+          },
+          {
+            "token": "r",
+            "prob": 0.000514984130859375,
+            "id": 81
+          },
+          {
+            "token": " ",
+            "prob": 0.000484466552734375,
+            "id": 220
+          },
+          {
+            "token": " of",
+            "prob": 0.0004291534423828125,
+            "id": 315
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "norm": 138.0,
+        "cosine_sim": 0.828125,
+        "drift_from_h0": 161.0,
+        "entropy": 0.00531005859375,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 1.0,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.000553131103515625,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 5.14984130859375e-05,
+            "id": 151644
+          },
+          {
+            "token": "r",
+            "prob": 1.895427703857422e-05,
+            "id": 81
+          },
+          {
+            "token": "\n\n",
+            "prob": 8.404254913330078e-06,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "norm": 149.0,
+        "cosine_sim": 0.9140625,
+        "drift_from_h0": 176.0,
+        "entropy": 0.1025390625,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.98046875,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.0179443359375,
+            "id": 151645
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.00051116943359375,
+            "id": 151644
+          },
+          {
+            "token": "r",
+            "prob": 0.000308990478515625,
+            "id": 81
+          },
+          {
+            "token": "\n\n",
+            "prob": 4.744529724121094e-05,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "norm": 159.0,
+        "cosine_sim": 0.9609375,
+        "drift_from_h0": 185.0,
+        "entropy": 0.45703125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.84765625,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.1474609375,
+            "id": 151645
+          },
+          {
+            "token": "r",
+            "prob": 0.00185394287109375,
+            "id": 81
+          },
+          {
+            "token": "<|im_start|>",
+            "prob": 0.0005645751953125,
+            "id": 151644
+          },
+          {
+            "token": ".",
+            "prob": 0.0003032684326171875,
+            "id": 13
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "norm": 165.0,
+        "cosine_sim": 0.98046875,
+        "drift_from_h0": 191.0,
+        "entropy": 0.73828125,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.6171875,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.373046875,
+            "id": 151645
+          },
+          {
+            "token": ".",
+            "prob": 0.00469970703125,
+            "id": 13
+          },
+          {
+            "token": "r",
+            "prob": 0.0010528564453125,
+            "id": 81
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00049591064453125,
+            "id": 271
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "norm": 167.0,
+        "cosine_sim": 0.9921875,
+        "drift_from_h0": 193.0,
+        "entropy": 0.72265625,
+        "virtual_tokens": [
+          {
+            "token": "\n",
+            "prob": 0.69140625,
+            "id": 198
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.2890625,
+            "id": 151645
+          },
+          {
+            "token": ".",
+            "prob": 0.0126953125,
+            "id": 13
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.000812530517578125,
+            "id": 271
+          },
+          {
+            "token": " ",
+            "prob": 0.00055694580078125,
+            "id": 220
+          }
+        ]
+      }
+    ]
+  }
+}

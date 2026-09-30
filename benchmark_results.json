@@ -1,0 +1,170 @@
+[
+  {
+    "suite": "Suite A (Algorithmic Logic)",
+    "task_id": "A1_cycle_detection",
+    "prompt": "Write a Python function `has_cycle(head)` implementing Floyd's cycle-finding algorithm (tortoise and hare) with O(1) space complexity. Include type annotations.",
+    "k0_direct": {
+      "tokens": 180,
+      "ttft_sec": 0.06598496437072754,
+      "total_time_sec": 5.894437551498413,
+      "valid": true,
+      "output_preview": "Here is a Python function `has_cycle(head)` that implements Floyd's cycle-finding algorithm (also known as the \"tortoise"
+    },
+    "k4_latent": {
+      "tokens": 111,
+      "ttft_sec": 0.004612922668457031,
+      "latent_time_sec": 0.10850191116333008,
+      "total_time_sec": 3.4425439834594727,
+      "valid": true,
+      "terminal_norm": 132.0,
+      "output_preview": "```python from typing import Optional  class ListNode:     def __init__(self, value=0, next=None):         self.value = "
+    },
+    "text_cot": {
+      "tokens": 220,
+      "ttft_sec": 0.12917089462280273,
+      "total_time_sec": 7.779582977294922,
+      "valid": true,
+      "output_preview": "To implement Floyd's cycle-finding algorithm (also known as the \"tortoise and hare\" algorithm) in Python, we need to fol"
+    }
+  },
+  {
+    "suite": "Suite A (Algorithmic Logic)",
+    "task_id": "A2_invert_tree",
+    "prompt": "Write a Python function `invert_tree(root)` to invert a binary tree recursively. Include a brief docstring.",
+    "k0_direct": {
+      "tokens": 145,
+      "ttft_sec": 0.0839238166809082,
+      "total_time_sec": 4.125345468521118,
+      "valid": true,
+      "output_preview": "```python class TreeNode:     def __init__(self, val=0, left=None, right=None):         self.val = val         self.left"
+    },
+    "k4_latent": {
+      "tokens": 145,
+      "ttft_sec": 0.004621982574462891,
+      "latent_time_sec": 0.08976364135742188,
+      "total_time_sec": 4.635218143463135,
+      "valid": true,
+      "terminal_norm": 134.0,
+      "output_preview": "```python class TreeNode:     def __init__(self, val=0, left=None, right=None):         self.val = val         self.left"
+    },
+    "text_cot": {
+      "tokens": 220,
+      "ttft_sec": 0.13675308227539062,
+      "total_time_sec": 7.59457540512085,
+      "valid": true,
+      "output_preview": "To invert a binary tree, we need to swap the left and right children of every node in the tree. This can be done recursi"
+    }
+  },
+  {
+    "suite": "Suite B (Code Optimization)",
+    "task_id": "B1_find_duplicates_O_N",
+    "prompt": "Identify the O(N^2) bottleneck in `def dupes(arr): return [x for x in arr if arr.count(x) > 1]` and rewrite it as an optimal O(N) function `find_duplicates(arr)` using a set or hash map.",
+    "k0_direct": {
+      "tokens": 180,
+      "ttft_sec": 0.13471579551696777,
+      "total_time_sec": 5.626465559005737,
+      "valid": true,
+      "output_preview": "The `arr.count(x)` in the list comprehension is the O(N^2) bottleneck because it iterates over the list for each element"
+    },
+    "k4_latent": {
+      "tokens": 50,
+      "ttft_sec": 0.004561662673950195,
+      "latent_time_sec": 0.09855818748474121,
+      "total_time_sec": 1.8278729915618896,
+      "valid": true,
+      "terminal_norm": 134.0,
+      "output_preview": "```python def find_duplicates(arr):     seen = set()     result = set()     for x in arr:         if x in seen:         "
+    },
+    "text_cot": {
+      "tokens": 220,
+      "ttft_sec": 0.13475704193115234,
+      "total_time_sec": 7.429187536239624,
+      "valid": true,
+      "output_preview": "Let's break down the problem and the code step by step to identify the bottleneck and then rewrite the function to be mo"
+    }
+  },
+  {
+    "suite": "Suite B (Code Optimization)",
+    "task_id": "B2_kadane_max_sum",
+    "prompt": "Write a Python function `max_subarray_sum(nums: list[int]) -> int` implementing Kadane's algorithm in O(N) time and O(1) space.",
+    "k0_direct": {
+      "tokens": 176,
+      "ttft_sec": 0.10883283615112305,
+      "total_time_sec": 5.473209619522095,
+      "valid": true,
+      "output_preview": "Here is the Python function `max_subarray_sum(nums: list[int]) -> int` that implements Kadane's algorithm in O(N) time a"
+    },
+    "k4_latent": {
+      "tokens": 79,
+      "ttft_sec": 0.004597902297973633,
+      "latent_time_sec": 0.10195207595825195,
+      "total_time_sec": 2.625509023666382,
+      "valid": true,
+      "terminal_norm": 130.0,
+      "output_preview": "```python def max_subarray_sum(nums: list[int]) -> int:     if not nums:         return 0          max_current = max_glo"
+    },
+    "text_cot": {
+      "tokens": 220,
+      "ttft_sec": 0.16166114807128906,
+      "total_time_sec": 7.432344198226929,
+      "valid": true,
+      "output_preview": "To implement Kadane's algorithm in Python, we need to follow these steps:  1. Initialize two variables: `max_current` an"
+    }
+  },
+  {
+    "suite": "Suite C (Cognitive Reflection / Semantic Traps)",
+    "task_id": "C1_bat_and_ball",
+    "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost in cents or dollars?",
+    "k0_direct": {
+      "tokens": 14,
+      "ttft_sec": 0.10815000534057617,
+      "total_time_sec": 0.4862987995147705,
+      "valid": true,
+      "output_preview": "The ball costs $0.05 or 5 cents."
+    },
+    "k4_latent": {
+      "tokens": 196,
+      "ttft_sec": 0.004657745361328125,
+      "latent_time_sec": 0.09494829177856445,
+      "total_time_sec": 5.856190204620361,
+      "valid": true,
+      "terminal_norm": 142.0,
+      "output_preview": "Let the cost of the ball be \\( x \\) dollars. Then the cost of the bat is \\( x + 1.00 \\) dollars. According to the proble"
+    },
+    "text_cot": {
+      "tokens": 220,
+      "ttft_sec": 0.12409543991088867,
+      "total_time_sec": 7.894913673400879,
+      "valid": true,
+      "output_preview": "Let's break this problem down step by step:  1. We know the total cost of the bat and the ball is $1.10.  2. We also kno"
+    }
+  },
+  {
+    "suite": "Suite C (Cognitive Reflection / Semantic Traps)",
+    "task_id": "C2_strawberry_r",
+    "prompt": "How many times does the letter 'r' appear in the word 'strawberry'?",
+    "k0_direct": {
+      "tokens": 18,
+      "ttft_sec": 0.09453320503234863,
+      "total_time_sec": 0.690986156463623,
+      "valid": false,
+      "output_preview": "The letter 'r' appears 2 times in the word 'strawberry'."
+    },
+    "k4_latent": {
+      "tokens": 18,
+      "ttft_sec": 0.004595518112182617,
+      "latent_time_sec": 0.08496379852294922,
+      "total_time_sec": 0.7184112071990967,
+      "valid": true,
+      "terminal_norm": 135.0,
+      "output_preview": "The letter 'r' appears 3 times in the word 'strawberry'."
+    },
+    "text_cot": {
+      "tokens": 164,
+      "ttft_sec": 0.0879671573638916,
+      "total_time_sec": 5.4080727100372314,
+      "valid": true,
+      "output_preview": "To determine how many times the letter 'r' appears in the word 'strawberry', let's break it down step by step:  1. First"
+    }
+  }
+]
