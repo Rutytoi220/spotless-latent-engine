@@ -1,4 +1,4 @@
-[[# Spotless Latent Reasoning Engine: Continuous Representation Steering for Qwen2.5-Coder
+# Spotless Latent Reasoning Engine: Continuous Representation Steering for Qwen2.5-Coder
 
 [![Model: Qwen2.5-Coder-7B-Instruct](https://img.shields.io/badge/Base%20Model-Qwen2.5--Coder--7B--Instruct-blue)](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)
 [![Precision: 4-bit NF4](https://img.shields.io/badge/Quantization-BitsAndBytes%204--bit%20NF4-green)]()
